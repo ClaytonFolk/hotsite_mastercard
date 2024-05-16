@@ -65,7 +65,8 @@ header a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
-.box-left p{
+.box-left p,
+footer .row .col p{
     color: rgb(108, 117, 125);
 }
 .box-left button,
@@ -348,4 +349,7 @@ footer .row .col span{
     color: white;
     border: none;
     cursor: pointer;
+}
+.row .col .icons{
+    display: flex;
 }
